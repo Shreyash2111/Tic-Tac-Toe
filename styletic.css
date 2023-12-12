@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+background-image: radial-gradient(18% 28% at 24% 50%, #CEFAFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 18% 71%, #FFFFFF59 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #73F2FFFF 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(31% 43% at 7% 98%, #FFFFFFFF 24%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #D3FF6D9C 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #8A4FFFF5 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #6DFFAEF5 24%, #073AFF00 100%),linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%);
+}
+.main_container{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.hero{
+    width: 60%;
+    height: 10%;
+    background-image: linear-gradient(156deg, #A100FFFF 8%, #A100FFFF 43%, #71C4FFFF 85%);
+    font-size: 4vw;
+    color:black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+.game{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius:10px;
+}
+.btnbox{
+    width: 30%;
+    background-color: rgb(161, 161, 211);
+    height: 30%;border-radius: 12px;
+    font-size: 4vw;
+    font-weight: 600;
+    color: rgb(19, 19, 19);
+    border: none;
+}
+.reset{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btnreset{
+    font-size: 2.5vw;
+    color: white;
+    border: none;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(7, 46, 48);
+    border-radius: 12px;
+}
+.winner-segment{
+    background-color: rgb(221, 79, 36);
+    height: 10%;
+    width: 70%;
+    font-size: 3vw;
+    border-radius:20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hide{
+    display:none;
+}
+.btnbox:hover{
+    
+    background-color: rgb(173, 173, 223);
+}
+.btnreset:hover{
+   
+    background-color: rgb(8, 54, 56);
+}
